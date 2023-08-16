@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 20px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+.rank {
+  width: 10%;
+}
+
+.score {
+  width: 20%;
+}
+
+.team-name {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.highlight {
+  animation: highlight 2s forwards;
+}
+
+@keyframes highlight {
+  0% { background-color: #92e783; }
+  100% { background-color: transparent; }
+}
