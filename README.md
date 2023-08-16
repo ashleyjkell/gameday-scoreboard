@@ -14,7 +14,9 @@ This repository contains code for a public scoreboard and an admin panel. The pu
 
 - `public_scoreboard.html`: Public scoreboard interface that displays the ranks and scores of participating teams.
 
-- `shared.js`: Shared JavaScript file containing common functionality for updating the leaderboard, handling score updates, and more.
+- `admin.js`: JavaScript file containing functionality for the admin page.
+
+- `scoreboard.js`: JavaScript file containing functionality for the main scoreboard.
 
 - `common.css`: Shared CSS file containing common styles for consistent appearance across both admin and public pages.
 
