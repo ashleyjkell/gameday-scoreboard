@@ -197,4 +197,12 @@ function updateLeaderboard(teams) {
       }
     }
   }
-  
+  // Event listeners
+  document.getElementById('addTeamButton').addEventListener('click', addNewTeam);
+  document.getElementById('clearScoresButton').addEventListener('click', clearScores);
+  document.getElementById('clearStorageButton').addEventListener('click', clearStorage);
+
+  // Initialize the leaderboard with existing team data from Local Storage
+  const teamData = localStorage.getItem('teams');
+  const teams = teamData ? JSON.parse(teamData) : [];
+  updateLeaderboard(teams);
